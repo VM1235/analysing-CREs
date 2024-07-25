@@ -1,14 +1,21 @@
 # analysis_cisregulatory_elements
-Plant development and response to environmental cues rely heavily on the precise control of gene expression. This control is achieved through interactions between genes and regulatory elements within the DNA.
 
-Cis-regulatory elements (CREs) are short, non-coding DNA sequences located near genes. They act as binding sites for transcription factors, proteins that determine if, when and how much a specific gene is expressed. Study of Promoter sequences like the TATA box and the spacer length, is ongoing for research in plant gene expression regulation.
+This code and project aims to analyse long genome sequences for positions and number of occurences of co-occurring cis regulatory elements which will help us identify the promoter regions at various spacer lengths.
+This study of promotor regions is crucial for development of biotechnological applications to manipulate promoter regions for production of geneticaly modified plants.
 
-Promoters are the most critical CREs, located directly upstream of a gene. They serve as the starting point for transcription, the process of transcribing DNA into RNA. Within the promoter lies the TATA box, recognized by RNA polymerase II, the enzyme responsible for RNA synthesis. The TATA box ensures accurate initiation of transcription and acts as a recognition site. Additional CREs, known as enhancers, can be located further away from the promoter (1000 bp upstream and downstream) and influence the rate and timing of gene expression by binding to specific transcription factors.
+**1. Skeleton_code**:
 
-The arrangement of these elements within the CRE affects gene regulation. The spacer length, that is the number of nucleotides separating two motifs (specific DNA sequences) is particularly important. In plants, the optimal spacer length between these elements is typically <30-35 base pairs. This spacing ensures optimal interaction between RNA polymerase II and other factors, allowing for efficient transcription initiation. Deviations from this optimal length can significantly reduce gene expression.
+Run the skeleton code with a fasta file of the genome you want to analyse.
 
-Interestingly, recent research suggests that the spacer length between CREs can be an important element in plant stress response. Studies have shown that under stress conditions like drought or salinity, the spacer length between certain motifs within promoters can influence their interaction with specific transcription factors. This flexibility allows plants to regulate gene expression patterns in response to environmental cues. For example, altering the spacer length between binding sites for stress-responsive transcription factors might enhance their recruitment, leading to the activation of stress-response genes.
+The code will ask you for two sequences between which the distances, occurences and positions have to be analysed.
 
-This behaviour of CREs highlights their role as responsive elements within plant gene regulation. Understanding the relation between spacer length and stress conditions holds a lot of potential. By manipulating these elements, we may be able to develop stress-resistant crops or plants with enhanced desirable traits using artificial promoters. Advancements in genome sequencing and computational biology to analyse these sequences offer a great tool for investigating the relation.
+This will create a csv file named output2 that holds all the data of your interest.
 
-In this project, we analyse occurrences of TATA, AATG, spacer length and frequencies between motifs like CATGTG, AATG and GATA, etc under normal and salt stress conditions.
+**2. csvanalyse.cpp**:
+
+Running this code will give you a visual representation- a frequency table of the data with frequency of occurences at every spacer length from 0-25 between the given two sequences.
+
+**NOTE:**
+There are two common formats that are widely used to store- FASTQ and FNA.
+If your raw date genome file is in the FNA format then you can directly proceed with running the skeleton code.
+If your raw data genome file is not is not in the fasta format, but is in the FASTQ format then run the *convertfastq-fna.cpp* code that will convert your FASTQ file to FNA file. Then you can proceed with the skeleton code and following steps.
