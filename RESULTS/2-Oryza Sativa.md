@@ -5,8 +5,8 @@ Entire genomes are available in the fastq format so there were several stages of
 
 The data obtained for Oryza Sativa:
 
-RESULTS/images/2.1.png
-RESULTS/images/2.2.png
+/images/2.1.png
+/images/2.2.png
 
 
 
