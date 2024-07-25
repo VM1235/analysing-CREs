@@ -18,4 +18,4 @@ Running this code will give you a visual representation- a frequency table of th
 **NOTE:**
 **There are two common formats that are widely used to store- FASTQ and FNA.
 If your raw date genome file is in the FNA format then you can directly proceed with running the skeleton code.
-If your raw data genome file is not is not in the fasta format, but is in the FASTQ format then run the *convertfastq-fna.cpp* code that will convert your FASTQ file to FNA file. Then you can proceed with the skeleton code and following steps.**
+If your raw data genome file is in the FASTQ format then run the *convertfastq-fna.cpp* code that will convert your FASTQ file to FNA file. Then you can proceed with the skeleton code and following steps.**
