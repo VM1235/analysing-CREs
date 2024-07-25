@@ -14,3 +14,12 @@ This behaviour of CREs highlights their role as responsive elements within plant
 
 **In this project, we have analysed occurrences of TATA, AATG, spacer length and frequencies between motifs like CATGTG, AATG and GATA, etc under normal and salt stress conditions.
 You can use the codes to analyse any other set of sequences too.**
+
+
+To facilitate this large-scale analysis of data more 3-4 GB, I developed C++ codes. 
+
+These programs acted as translators, taking raw DNA sequence data stored in a format called FASTA (fastaq files) and converting it into a more user-friendly format called FASTA nucleotide (fna files). This conversion made the data easier to work with and analyse. Finally, the programs processed the data and generated comma-separated values (CSV) files. Once the data was processed, I used Spreadsheet software to create visual representations of bar graphs. These charts display the frequency of different CRE motifs at various spacer lengths within the promoter regions of the target genes. By analysing these charts,we can identify patterns and trends.
+
+In conclusion, I researched and analysed CREs and their role in regulating stress-responsive genes in plants. By analysing the number and spacing of specific DNA sequences within promoter regions, I gained valuable insights into how plants activate genes in response to environmental challenges. 
+
+Analysing CRE frequency and spacer lengths can help design stress-specific promoters. By identifying stress-linked CREs and their optimal spacing, researchers can create synthetic promoters to activate desired stress-response genes in plants, potentially leading to induced stress tolerance and improved crop performance.
