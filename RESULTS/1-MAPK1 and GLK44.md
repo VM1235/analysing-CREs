@@ -10,6 +10,7 @@ The occurrences of “ACGT” and “TATA” were analysed.
 
 
 In the gene MAPK1: There were 24 occurrences of “TATA” and only 6 occurrences of “ACGT”. There were 7 occurrences with spacer length<25 for “TATA” and only occurrence for “ACGT with a spacer length <25 bp.
+
 In the gene GKL44: There are 4 occurrences of “ACGT” and “TATA” each. None of the occurrences have a spacer length below 25 except for one time where two cis-regulatory TATA sequences had a spacer length of 1 bp.
 
 ![Bar Graph](images/1.1.png)
